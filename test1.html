@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        p{
+            font-size: 50px;
+            
+        }
+        div{margin: 10px auto;
+            height: 100px;
+            width: 500px;
+            background-color: blueviolet;
+            text-align: center;
+            line-height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <div id="click" style="position: relative; height: 100px; width: 100px; padding: 100px;margin: 100px; border: 100px solid #000;"></div> -->
+<div>
+    <p>Giao</p>
+</div>
+<div>
+    <p>Giao</p>
+</div>
+<div>
+    <p>Giao</p>
+</div>
+<div>
+    <p>Giao</p>
+</div>
+<div>
+    <p>Giao</p>
+</div>
+<div>
+    <p>Giao</p>
+</div>
+
+
+    <script>
+        // //节流函数
+        // function throttle(fn,wait){
+        //     let pre = Date.now();
+        //     return function(){
+        //         let args = arguments;
+        //         let now = Date.now();
+        //         if( now - pre >= wait){
+        //             fn.apply(null,args);
+        //             pre = Date.now();
+        //         }
+        //     }
+        // }
+        // //添加节点
+        // function add_el(){ 
+        //     let scrollTop = document.documentElement.scrollTop
+        //     let scrollHeight = document.documentElement.scrollHeight
+        //     let clientHeight = document.documentElement.clientHeight
+        //     if(scrollTop+clientHeight+10>scrollHeight){//距离底部还差100px时加入div
+        //         var body = document.body; 
+        //         var div = document.createElement("div");  
+        //         div.innerHTML = '<p>nihao</p>'
+        //         body.appendChild(div);  
+        //         console.log('scrollTop'+scrollTop);
+        //         console.log('scrollHeight'+scrollHeight);
+        //         console.log('clientHeight'+clientHeight);
+        //         console.log('===================')
+        //         }
+        // }
+        // let even = throttle(add_el,50)//最快50ms执行一次
+        // window.addEventListener('scroll', even)//绑定scroll事件
+        // setInterval(() => {
+        // }, 1000);
+
+
+
+
+       
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .contain{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+            /*  justify-items: start | end | center | stretch;
+                align-items: start | end | center | stretch; */         
+            /* justify-items: center;
+            align-items: center; */
+
+            place-items: center center;
+        }
+        .item{
+            width: 50%;
+            height: 90%;
+        }
+        .item1{
+            background: blanchedalmond;
+        }
+        .item2{
+            background-color: blue;
+        }
+        .item3{
+            background-color: brown;
+        }
+        .item4{
+            background-color: chartreuse;
+        }
+        .item5{
+            background-color: crimson;
+        }
+        .item6{
+            background-color: darkolivegreen;
+        }
+        .item7{
+            background-color: darkturquoise;
+        }
+        .item8{
+            background-color: firebrick;
+        }
+        .item9{
+            background-color: gray;
+        }
+        p{
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            font-size: 50px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="item item1"><p>1</p></div>
+        <div class="item item2"><p>2</p></div>
+        <div class="item item3"><p>3</p></div>
+        <div class="item item4"><p>4</p></div>
+        <div class="item item5"><p>5</p></div>
+        <div class="item item6"><p>6</p></div>
+        <div class="item item7"><p>7</p></div>
+        <div class="item item8"><p>8</p></div>
+        <div class="item item9"><p>9</p></div>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>

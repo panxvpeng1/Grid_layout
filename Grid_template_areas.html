@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .contain{
+            display: grid;
+            /* auto */
+            grid-template-columns: 200px 200px 200px ;
+            grid-template-rows: 200px 200px 200px 200px;
+            grid-template-areas:"h h h"
+                                "n . m"
+                                "n . m"
+                                "f f f";
+        }
+        .item{
+            width: 100%;
+            height: 100%;
+        }
+        .contain .h{
+            grid-area:h ;
+            background-color: gray;
+        }
+        .contain .n{
+            grid-area:n ;
+            background-color: green;
+        }
+        .contain .m{
+            grid-area:m ;
+            background-color: greenyellow;
+        }
+        .contain .f{
+            grid-area:f ;
+            background-color: indianred;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <header class="item h">header</header>
+        <nav class="item n">nav</nav>
+        <main class="item m">main</main>
+        <footer class="item f">footer</footer>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
